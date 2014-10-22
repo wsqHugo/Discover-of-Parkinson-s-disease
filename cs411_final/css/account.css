@@ -1,0 +1,146 @@
+.group:before,
+.group:after {
+content:"";
+display:table;
+}
+.group:after {
+clear:both;
+}
+.group {
+zoom:1; /* For IE 6/7 (trigger hasLayout) */
+
+}
+
+#account_status{
+	padding:5px 0px;
+	text-align:right;
+}
+
+#account_status a{
+	font-size:10pt;
+}
+
+#jqueryButtonDiv{
+	margin-top: 10px;
+	padding-top: 10px;
+	text-align: right;
+}
+#reset_password{
+	margin-top:20px; 
+	margin-left:auto; 
+	margin-right:auto; 
+	width:414px; 
+	padding:10px; 
+	border:1px solid #72b42d;
+	border-radius: 5px;
+	background-color:rgb(221, 221, 221);
+}
+
+body { 
+	font-size: 12pt; 
+}
+
+label.text{
+	width:90px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+	float:left;
+}
+
+input.text{
+	width:298px;
+	padding: 8px;
+	margin-left: 15px;
+	float:left;
+}
+
+span.text{
+	height: 17px;
+	width:17px;
+	margin-left:10px;
+	margin-top: 12px;
+	margin-bottom:12px;
+	float:left;
+}
+
+
+/*reset password form style*/
+
+input.text_captcha {
+	width:150px;
+	hegiht:50px;
+	padding:12px;
+	margin-left:10px;
+	float:left;
+}
+
+.Captcha_Img{
+	height:50px;
+	width:142px;
+	float:left
+}
+
+span.Captcha_Refresh{
+	height:48px;
+	width:48px;
+	margin-left:10px;
+	float:left
+}
+
+div a.reset_password{
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+/*error style*/
+
+.style_error_box{
+	padding:8px;
+	width:298px;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.style_error_text{
+	float: left;
+	margin-right: 5px;
+}
+
+/*loading dialog*/
+.loading_dialog {
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	width:136px;
+}
+
+.loading_success {
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	width:250px;
+	text-align:center;
+}
+
+.loading_dialog img{
+	float:left;
+	margin-right:10px;
+}
+
+.loading_dialog span{
+	float:left;
+	padding-top:7px;
+	padding-bottom:7px;
+	text-align:center;
+}
+
+.process_dialog .ui-dialog-titlebar{
+	display:none;
+}
+
+.process_dialog_show .ui-dialog-titlebar{
+	display:block;
+}
